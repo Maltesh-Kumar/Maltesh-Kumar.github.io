@@ -1,0 +1,86 @@
+html{
+	font-family: 'Nunito', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+#topbar h2{
+	display: inline;
+	color: gray;
+}
+nav{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#topbar h1{
+	display: inline;
+	color: purple;
+	
+
+}
+#content{
+	padding-left: 50px;
+	float: left;
+}
+#text-content{
+	float: left;
+	width: 50%;
+	margin-top: 4%;
+}
+#content h1{
+	margin: 0;
+	padding:0;
+	font-family: 'Nunito', sans-serif;
+	font-size: 300%;	
+}
+#content h2{
+	margin: 0;
+	padding:0;
+	font-family: 'Nunito', sans-serif;
+	font-size: 200%;	
+}
+#content p{
+	color: #383631;
+	font-size: 200%;
+}
+#text-content ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#text-content li{
+	display: inline;
+	margin-right: 20px;
+}
+#text-content li img{
+	width: 50px;
+	transition: all 0.7s;
+}
+#text-content li img:hover{
+	transform: scale(1.4);
+}
+#main-image{
+	width:40%;
+	height: 80vh;
+	float: right;
+	margin-right: 30px;
+	margin-top: 65px;
+	background-image:url("images/undraw_dev_productivity_umsq.svg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+}
+#resume-btn{
+	position: relative;
+	bottom: 90px;
+	margin-left: 50px;
+	text-decoration: none;
+	background-color: purple;
+	color: white;
+	padding:10px 20px 10px 20px;
+	font-size: 120%;
+	border-radius: 7px;
+	transition: all 0.7s;
+}
+#resume-btn:hover{
+	background-color: #6495ED;
+	
+}
