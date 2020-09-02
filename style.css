@@ -41,6 +41,7 @@ nav{
 #content p{
 	color: #383631;
 	font-size: 200%;
+	padding-right: 30px;
 }
 #text-content ul{
 	list-style: none;
@@ -71,6 +72,7 @@ nav{
 #resume-btn{
 	position: relative;
 	top: 45px;
+	bottom: 80px;
 	margin-left: 50px;
 	text-decoration: none;
 	background-color: purple;
@@ -79,6 +81,12 @@ nav{
 	font-size: 120%;
 	border-radius: 7px;
 	transition: all 0.7s;
+	margin-bottom: 80px;
+	
+	
+}
+#btm-space{
+	height: 130px;
 }
 #resume-btn:hover{
 	background-color: #6495ED;
@@ -98,5 +106,7 @@ nav{
 	#text-content{float: none;width: 100%;}
 	#resume-btn{
 		font-size: 200%;
+		
+		
 	}
 }
