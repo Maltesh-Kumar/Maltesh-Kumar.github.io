@@ -6,10 +6,11 @@ html{
 #topbar h2{
 	display: inline;
 	color: gray;
+	
 }
 nav{
 	padding-top: 20px;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 #topbar h1{
 	display: inline;
